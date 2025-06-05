@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+*{
+  font-family: "Outfit", sans-serif;
+}
+
+/* Hides the scroll-bar */
+::-webkit-scrollbar{
+  display: none; 
+}
+
+@theme{
+  --color-primary: #5044E5;
+}
+
+/* Till these we have completed our setup */
+/* optional - src/index.css or global.css */
+.card:hover .read-more {
+  text-decoration: underline;
+}
