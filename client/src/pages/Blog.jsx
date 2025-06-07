@@ -5,6 +5,7 @@ import Footer from '../components/Footer'
 import { div } from 'motion/react-client'
 import Navbar from '../components/Navbar'
 import moment from 'moment'
+import Loader from '../components/Loader'
 
 const Blog = () => {
   const {id} = useParams(null)
@@ -89,7 +90,7 @@ const Blog = () => {
     </div>
           <Footer/>
     </div>
-  ) : <div>Loading...</div>
+  ) : <Loader/>
 }
 
 export default Blog

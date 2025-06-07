@@ -25,3 +25,4 @@
 
 3. Creating Blog Page
     - Installed Moment package for structuring date and time 
+    - Create Loader till the data gets rendered
