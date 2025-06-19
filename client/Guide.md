@@ -26,3 +26,9 @@
 3. Creating Blog Page
     - Installed Moment package for structuring date and time 
     - Create Loader till the data gets rendered
+
+---
+
+4. Creating Admin Section
+    - Layout will be common in all 4 options of sidebar
+    - Home admin page (Default Dasboard) will only be available if admin is logged in
